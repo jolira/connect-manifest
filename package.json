@@ -1,0 +1,32 @@
+{
+    "name":"connect-manifest",
+    "version":"0.0.3",
+    "description":"automatically create a manifest for all static resources",
+    "keywords":["manifest", "connect"],
+    "author":"Joachim Kainz <jfk@jolira.com> (http://www.jolira.com)",
+    "repository":{
+        "url":"https://github.com/jolira/connect-manifest.git",
+        "type":"git"
+    },
+    "dependencies":{
+        "batch":"*",
+        "connect":"*"
+    },
+    "devDependencies":{
+        "horaa":"*",
+        "vows":"*",
+        "jake":"*"
+    },
+    "scripts":{
+        "test":"jake test",
+        "prepublish":"npm prune"
+    },
+    "bugs":{
+        "mail":"dev@jolira.com",
+        "url":"http://github.com/jolira/connect-manifest/issues"
+    },
+    "main":"index",
+    "engines":{
+        "node":">= 0.6.0"
+    }
+}
